@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ShipmentsListView renders correctly 1`] = `<ShipmentsListView />`;

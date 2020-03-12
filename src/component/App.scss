@@ -1,0 +1,115 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/utilities";
+@import "../../node_modules/font-awesome/scss/font-awesome";
+
+.masthead {
+    .container {
+        .user-img img {
+            width: 50px;
+            height: 50px;
+        }
+        .content {
+            .heading {
+                margin-bottom: 15px;
+            }
+            .search-block {
+                margin-bottom: 15px;
+                min-height: 30px;
+                .search-field {
+                    display: inline-block;
+                    float: left;
+                }
+                .sorting-block {
+                    display: inline-block;
+                    float: right;
+                    .sort-label {
+                        padding: 0px 8px;
+                    }
+                    .sort-field {
+                        padding: 0px 8px;
+                        cursor: pointer;
+                        &:hover{
+                            color: #2C3E50;
+                        }
+                        .active {
+                            text-decoration: underline;
+                            font-weight: bold;
+                        }
+                    }
+                    div.btn-group label:not(:last-child) {
+                        border-right: 2px solid;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.container {
+    .user-img img {
+        width: 50px;
+        height: 50px;
+    }
+    a {
+        cursor: pointer;
+    }
+}
+.page-numbers {
+    list-style: none;
+    display: flex;
+    padding-left: 0px;
+    padding-top: 5px;
+    li {
+        margin-right: 0.3em;
+        color: black;
+        user-select: none;
+        cursor: pointer;
+        width: 30px;
+        background: #fff;
+        border-radius: 20%;
+        &:hover {
+            background: lightgrey;
+        }
+    }
+    .active {
+        background: #2DB7F5;
+        color: #fff
+    }
+}
+
+.font-bold{
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .masthead {
+        .container {
+            .content {
+                .search-block {
+                    .search-field {
+                        width: 100%;
+                        display: contents;
+                    }
+                    .sorting-block {
+                        width: 100%;
+                        display: contents;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.home-option {
+    margin-left: 16px;
+    &:hover {
+        color: blue;
+        cursor: pointer;
+    }
+}
+@media (max-width: 500px) {
+    .table-block {
+        overflow-x: scroll;
+    }
+}

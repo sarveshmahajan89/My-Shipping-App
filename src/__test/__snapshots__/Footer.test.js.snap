@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact renders correctly 1`] = `<Contact />`;
+
+exports[`Footer renders correctly 1`] = `<Footer />`;

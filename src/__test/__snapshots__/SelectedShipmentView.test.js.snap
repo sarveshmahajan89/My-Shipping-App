@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Router renders correctly 1`] = `<Navigation />`;
+
+exports[`SelectedShipmentView renders correctly 1`] = `<SelectedShipmentView />`;

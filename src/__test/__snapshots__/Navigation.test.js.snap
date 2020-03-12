@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home renders correctly 1`] = `<Home />`;
+
+exports[`Navigation renders correctly 1`] = `<Navigation />`;
